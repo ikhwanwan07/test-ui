@@ -1,0 +1,11 @@
+{
+  "name": "maukerja-ui",
+  "version": "1.0.0",
+  "description": "mau kerja test ui my",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ikhwan-nur-hasyim",
+  "license": "ISC"
+}
