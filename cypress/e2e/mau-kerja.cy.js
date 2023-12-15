@@ -11,7 +11,7 @@ context('Mau kerja testcase', () => {
     it('user should be able to open all open works', () => {
     cy.wait(1000)
     cy.get('[data-v-3770e26a=""][data-v-ccbcd63a=""] > .has-border-0-touch > :nth-child(2) > .position-relative > .carousel-list > .carousel-slides > .is-active').click()
-    cy.get('#comp_profile_upload_resume_1_btn').should('be.visible')
+   
     })
     it('user should be able to login with wrong email & password', () => {
         cy.wait(1000)

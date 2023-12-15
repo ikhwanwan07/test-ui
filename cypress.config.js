@@ -3,9 +3,8 @@ module.exports = {
   reporterOptions: {
     reportDir: 'cypress/results',
     reportFilename: '[name].html',
-    overwrite: false,
-    // html: false,
-    json: true,
+    overwrite: true,
+    html: true,
   },
   e2e: {
     setupNodeEvents(on, config) {
