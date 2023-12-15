@@ -16,10 +16,9 @@ Clone This repo and install Node module first
 3. run with this code 
 
 ```
-"headless"
-run
 npm run test  
 ```
+after that run this code for generate html report
 ```
 npm run generate
 ```
