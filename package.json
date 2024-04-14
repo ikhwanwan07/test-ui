@@ -5,6 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "test": "npx cypress run --browser chrome  --spec './cypress/e2e/mau-kerja.cy.js' -r cypress-mochawesome-reporter",
+    "test1": "npx cypress run --browser chrome  --spec './cypress/e2e/99' -r cypress-mochawesome-reporter",
     "generate": "npx marge cypress/results/.jsons/mau-kerja.json -o cypress/results/"
   },
   "author": "ikhwan-nur-hasyim",
