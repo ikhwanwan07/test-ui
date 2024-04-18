@@ -19,7 +19,7 @@ context('99 co testcase 3', () => {
     // Check if the URL changes after clicking
     cy.url().should('contains', 'pawshake.com.sg');
 
-    // Check if the page is loaded successfully (you can add additional checks here)
+    // Check if the page is loaded successfully 
     cy.get('body').should('not.be.empty');
     
     // Navigate back to the Blog page
